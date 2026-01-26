@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+.form-container {
+    max-width: 500px;
+    margin: 0 auto;
+    border: 1px solid #000; /* Borde opcional para delimitar el área */
+    padding: 20px;
+}
+
+.field {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+/* Para que los checkboxes no salgan en bloque y se mantengan al lado del texto */
+input[type="checkbox"] {
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.field label {
+    display: block; /* Mantiene las opciones de deportes una debajo de otra */
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="tel"] {
+    width: 100%;
+    padding: 5px;
+    box-sizing: border-box; /* Asegura que el padding no rompa el ancho */
+}
+
+.button-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+button {
+    padding: 10px 40px;
+    background-color: white;
+    border: 1px solid black;
+    cursor: pointer;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+button:hover {
+    background-color: #f0f0f0;
+}
