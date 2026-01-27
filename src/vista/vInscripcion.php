@@ -1,5 +1,4 @@
-<!DOCTYPE html>
-<html lang="es">
+<html>
 <head>
     <meta charset="UTF-8">
     <title>Formulario de Registro</title>
@@ -8,7 +7,7 @@
 <body>
 
     <div class="form-container">
-        <form action="index.php?c=Incio&m=inicioSesion" method="get">
+        <form action="index.php?c=incio&m=inicioSesion" method="get">
             
             <div class="field">
                 <label for="usuario">Nombre usuario: (no se puede repetir)</label>
@@ -53,6 +52,10 @@
             </div>
 
         </form>
+    </div>
+
+    <div class="button-container">
+        <a href='index.php?c=Inicio&m=iniciarSesion'>VOLVER</a>
     </div>
 
 </body>

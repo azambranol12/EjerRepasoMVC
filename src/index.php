@@ -1,15 +1,15 @@
 <?php
 require_once 'config/config.php';
 
-if(!isset($_get['c'])){
-    $_get['c'] = ControladorDefecto;
+if(!isset($_GET['c'])){
+    $_GET['c'] = ControladorDefecto;
 }
 
-if(!isset($_get['m'])){
-    $_get['m'] = MetodoDefecto;
+if(!isset($_GET['m'])){
+    $_GET['m'] = MetodoDefecto;
 }
 
-rutaControlador = RUTA_CONTROLADORES . $_GET['c'] . '.php';
+$rutaControlador = RutaControlador . $_GET['c'] . '.php';
 require_once $rutaControlador;
 
 $controlador = 'C' . $_GET['c'];
@@ -31,7 +31,7 @@ if (method_exists($objControlador, $_GET['m'])) {
 if ($objControlador->vista != '') {
     if (is_array($datos))
         extract($datos);
-    require_once RUTA_VISTAS . $objControlador->vista . '.php';
+    require_once RutaVista . $objControlador->vista . '.php';
 }
 
 ?>

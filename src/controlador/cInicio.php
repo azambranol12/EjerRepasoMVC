@@ -1,0 +1,25 @@
+<?php
+
+
+class CInicio{
+
+    public $vista;
+    public $objModelo;
+
+    public function __construct()
+    {
+        $this->vista = '';
+    }
+
+    public function iniciarSesion()
+    {
+        $this->vista='Inicio';
+    }
+
+    public function inscripcion()
+    {
+        $this->vista='Inscripcion';
+    }
+}
+
+?>
