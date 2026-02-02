@@ -40,14 +40,18 @@ class CInscripcion{
         if (empty($usuario) || empty($nombre) || empty($password) || empty($correo) || empty($deportes)) {
             $this->mensaje = 'Falta algún campo por rellenar.';
             $this->errorTipo = 'fallo';
-            $this->inscripcion();
-            return false;
+
+            $datos['deportes'] = $this->objModelo->listarDeportes();
+            $this->vista='Inscripcion';
+            return $datos;
         }
 
         // Aquí podrías guardar en la base de datos con $this->objModelo
         $this->mensaje = 'Datos guardados correctamente.';
         $this->errorTipo = 'exito';
-        return true;
+        $datos['deportes'] = $this->objModelo->listarDeportes();
+        $this->vista='Inscripcion';
+        return $datos;
     }
     
 }

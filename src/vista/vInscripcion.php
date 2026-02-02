@@ -5,11 +5,7 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <?php if (!empty($objControlador->mensaje)): ?>
-        <div class="mensaje <?= $objControlador->errorTipo ?>">
-            <?= $objControlador->mensaje ?>
-        </div>
-    <?php endif; ?>
+
     <div class="form-container">
         <form action="index.php?c=Inscripcion&m=guardarDatos" method="POST">
             
@@ -53,6 +49,12 @@
                     Acepto las condiciones <input type="checkbox" name="condiciones"> **
                 </label>
             </div>
+
+            <?php if (!empty($objControlador->mensaje)): ?>
+                <div class="mensaje <?= $objControlador->errorTipo ?>">
+                    <?= $objControlador->mensaje ?>
+                </div>
+            <?php endif; ?>
 
             <div class="button-container">
                 <button type="submit">ENVIAR</button>
