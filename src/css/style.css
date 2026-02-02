@@ -132,3 +132,27 @@ a:hover {
     background-color: #5a6268;
     text-decoration: none;
 }
+
+/* ===== AÑADIDO PARA VISTA DE ACCESO ===== */
+.access-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.access-buttons a {
+    display: block;
+    background-color: #1a73e8;
+    color: white;
+    padding: 12px;
+    border-radius: 5px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    transition: background-color 0.3s ease;
+}
+
+.access-buttons a:hover {
+    background-color: #1557b0;
+    text-decoration: none;
+}

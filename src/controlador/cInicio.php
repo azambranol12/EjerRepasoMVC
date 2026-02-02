@@ -13,7 +13,7 @@ class CInicio{
 
     public function iniciarSesion()
     {
-        $this->vista='Inicio';
+        $this->vista='Iniciar';
     }
 
     public function inscripcion()
