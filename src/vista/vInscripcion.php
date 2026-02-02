@@ -10,13 +10,13 @@
         <form action="index.php?c=Inscripcion&m=guardarDatos" method="POST">
             
             <div class="field">
-                <label for="usuario">Nombre usuario: (no se puede repetir)</label>
+                <label for="usuario">Nombre de usuario:</label>
                 <input type="text" id="usuario" name="usuario">
             </div>
 
             <div class="field">
-                <label for="nombre">Apellidos y Nombre:</label>
-                <input type="text" id="nombre" name="nombre">
+                <label for="nombreApellido">Nombre y apellido:</label>
+                <input type="text" id="nombreApellido" name="nombreApellido">
             </div>
 
             <div class="field">
@@ -26,12 +26,12 @@
 
             <div class="field">
                 <label for="correo">Correo:</label>
-                <input type="email" id="correo" name="correo">
+                <input type="text" id="correo" name="correo">
             </div>
 
             <div class="field">
                 <label for="telefono">Teléfono: (si no se rellena se guarda el valor null)</label>
-                <input type="tel" id="telefono" name="telefono">
+                <input type="text" id="telefono" name="telefono">
             </div>
 
             <div class="field">
