@@ -19,5 +19,8 @@
             <button type="submit" class="btn-login">Entrar</button>
         </form>
     </div>
+    <div class="button-container">
+        <a href='index.php?c=Inicio&m=iniciarSesion'>VOLVER</a>
+    </div>
 </body>
 </html>

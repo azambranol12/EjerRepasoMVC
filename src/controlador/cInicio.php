@@ -20,6 +20,11 @@ class CInicio{
     {
         $this->vista='Inscripcion';
     }
+
+    public function inicio()
+    {
+        $this->vista='Inicio';
+    }
 }
 
 ?>

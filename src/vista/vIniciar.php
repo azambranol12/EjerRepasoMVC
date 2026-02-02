@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Acceso</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
@@ -12,7 +12,7 @@
 
         <div class="access-buttons">
             <a href="index.php?c=Inicio&m=inicio">Iniciar sesión</a>
-            <a href="index.php?c=Inscripcion&m=inicio">Inscripción</a>
+            <a href="index.php?c=Inscripcion&m=inscripcion">Inscripción</a>
         </div>
     </div>
 </body>

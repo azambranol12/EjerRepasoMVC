@@ -1,7 +1,7 @@
 <?php
 
-DEFINE("usuario","usuario");
-DEFINE("password","modelo/m");
+DEFINE("usuario","root");
+DEFINE("password","");
 DEFINE("servidor","localhost");
 DEFINE("nombreDb","deportes");
 
