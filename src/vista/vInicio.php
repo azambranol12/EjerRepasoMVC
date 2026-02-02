@@ -18,7 +18,6 @@
 
             <button type="submit" class="btn-login">Entrar</button>
         </form>
-        <p>¿No tienes cuenta?<a href="index.php?c=Inicio&m=inscripcion"> Registrarse</a></p>
     </div>
 </body>
 </html>
